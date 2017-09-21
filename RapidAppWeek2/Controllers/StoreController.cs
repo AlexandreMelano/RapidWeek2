@@ -18,6 +18,7 @@ namespace RapidAppWeek2.Controllers
         public ActionResult Browse(string genre)
         {
             ViewBag.Genre = genre;
+
             return View(); 
         }
     }
